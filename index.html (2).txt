@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clothing store selling trendy apparel for men and women">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Clothing Store</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Clothing Store</h1>
+            <p>Your favorite place for trendy outfits</p>
+            <a href="#" class="btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="images/product1.jpg" alt="Women's T-shirt">
+                <h3>Women's T-shirt</h3>
+                <p>Price: $25.00</p>
+                <a href="#" class="btn-primary">Buy Now</a>
+            </div>
+            <div class="product-item">
+                <img src="images/product2.jpg" alt="Men's Jeans">
+                <h3>Men's Jeans</h3>
+                <p>Price: $40.00</p>
+                <a href="#" class="btn-primary">Buy Now</a>
+            </div>
+            <!-- Add more products here -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Clothing Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
